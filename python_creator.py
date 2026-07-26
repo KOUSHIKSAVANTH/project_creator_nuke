@@ -10,7 +10,10 @@ folders = [
     "assets",
     "reference"
 ]
-os.mkdir(project_name)
+if os.path.exists(project_name):
+    print("project already exists!")
+else:
+    os.mkdir(project_name)
 
 for folder in folders:
     os.mkdir(os.path.join(project_name, folder))
