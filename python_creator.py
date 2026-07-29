@@ -4,7 +4,7 @@ def create_folders(project_name,folders):
     os.mkdir(project_name)
 
     for folder in folders:
-        os.mkdir(os.oath.join(project_name,folder))
+        os.mkdir(os.path.join(project_name,folder))
 
 def create_readme(project_name):
     with open(os.path.join(project_name, "README.md"), "w") as file:
