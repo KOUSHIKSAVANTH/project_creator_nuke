@@ -25,4 +25,8 @@ else:
     with open(os.path.join(project_name, "notes.txt"), "w") as file:
      file.write("project notes:\n")
 
+     with open(os.path.join(project_name,"comp","shot001.nk"), "w") as file:
+      file.write("# Nuke script\n")
+      file.write("version 15.0 v1\n")
+
 print("Project structure created successfully!")
