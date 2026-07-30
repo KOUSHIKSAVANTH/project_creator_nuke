@@ -1,4 +1,5 @@
 import os
+import json
 
 def create_folders(project_name,folders):
     os.mkdir(project_name)
@@ -21,7 +22,11 @@ def create_nuke(project_name):
         file.write("version 15.0 v1\n")
 
 
-folders = ["plates","comp", "renders","scripts","assets","reference"]
+with open("config.json", "r") as config:
+    data = json.load(config)
+
+folders = data["folders"]
+
 
 project_name = input("Enter the project name: ")
 
