@@ -1,7 +1,20 @@
 import os
 import json
 
-def create_folders(project_name,folders):
+def create_project(project_name):
+    if os.path.exists(project_name):
+     print("Project already exists.")
+     return
+ 
+
+    create_folders(project_name)
+    create_readme(project_name)
+    create_notes(project_name)
+    create_nuke(project_name)
+
+    print(f"\nproject '{project_name}' created successfully!")
+
+def create_folders(project_name):
     os.mkdir(project_name)
 
     for folder in folders:
@@ -30,14 +43,5 @@ folders = data["folders"]
 
 project_name = input("Enter the project name: ")
 
-if os.path.exists(project_name):
-    print("Project already exists.")
-
-else:
-    create_folders(project_name,folders)
-    create_readme(project_name)
-    create_notes(project_name)
-    create_nuke(project_name)
-
-    print("project structure created successfully!")
+create_project(project_name)
 
