@@ -38,14 +38,6 @@ A simple pipeline tool that creates a VFX project folder structure directly from
 
 ![folder structure](screenshots/folder_structure.png)
 
-## practice code
-
-![practice code 1](screenshots/practice_code1.png)
-
-![practice code 2](screenshots/practice_code2.txt)
-
-![practice code 3](screenshots/practice_code3.txt)
-
 ---
 
 ## Project Structure
