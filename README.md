@@ -18,25 +18,25 @@ A simple pipeline tool that creates a VFX project folder structure directly from
 
 ### Pipeline Menu
 
-![Pipeline Menu](screenshots/pipeline.png)
+![Pipeline Menu](screenshots/pipeline.png.png)
 
 ### Create Project Popup
 
-![Create Project Popup](screenshots/create_project.png)
+![Create Project Popup](screenshots/create_project.png.png)
 
 ---
 
 ## create project name
 
-![naming the project](screenshots/project_name.png)
+![naming the project](screenshots/project_name.png.png)
 
 ## project creation
 
-![project created successfully](screenshots/project_creation.png)
+![project created successfully](screenshots/project_creation.png.png)
 
 ## Folder structure
 
-![folder structure](screenshots/folder_structure.png)
+![folder structure](screenshots/folder_structure.png.png)
 
 ---
 
